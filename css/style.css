@@ -1,0 +1,33 @@
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+}
+div, img{
+    height: 150px;
+    width: 100px;
+    background-size: contain;
+}
+
+
+.faceDown{
+    background-image: url(./../img/cardback.jpg);
+
+}
+
+.plains{
+    background-image: url(./../img/plains.jpg);
+}
+.island{
+    background-image: url(./../img/island.jpg);
+}
+.swamp{
+    background-image: url(./../img/swamp.jpg);
+}
+.mountain{
+    background-image: url(./../img/mountain.jpg);
+}
+.forest{
+    background-image: url(./../img/forest.jpg);
+}
